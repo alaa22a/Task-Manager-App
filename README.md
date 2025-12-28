@@ -50,7 +50,7 @@ A simple task management app with a Flask backend and React frontend.
 
 ### Tasks (Requires Bearer Token)
 - `GET /api/tasks`: List all tasks for current user
-- `POST /api/tasks`: Create a new task (`title`, `description` optional)
+- `POST /api/tasks`: Create a new task (`title`, `description`)
 - `PUT /api/tasks/<id>`: Update a task (`title`, `description`, `status`)
 - `DELETE /api/tasks/<id>`: Delete a task
 
