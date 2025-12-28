@@ -1,0 +1,25 @@
+# General
+.DS_Store
+.vscode/
+.idea/
+
+# Python / Flask
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+instance/
+.pytest_cache/
+
+# Database
+*.sqlite3
+*.db
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.npm/
+*.log
